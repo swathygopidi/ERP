@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Event Example</title>
+    <script>
+        // JavaScript function to be executed on click
+        function showMessage() {
+            alert("Hello! You clicked the button.");
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Welcome to Our Website</h1>
+
+    <!-- Button that triggers the JavaScript function on click -->
+    <button onclick="showMessage()">Click Me</button>
+
+</body>
+</html>
